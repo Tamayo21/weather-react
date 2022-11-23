@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import { Puff } from "react-loader-spinner";
+import { Audio } from "react-loader-spinner";
 
 export default function Weather(props) {
   function handleResponse(response) {
@@ -13,15 +13,14 @@ export default function Weather(props) {
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${apiKey}&units=${units}`;
   axios.get(url).then(handleResponse);
   return (
-    <Puff
+    <Audio
       height="80"
       width="80"
-      radisu={1}
-      color="#4fa94d"
-      ariaLabel="puff-loading"
-      wrapperStyle={{}}
-      wrapperClass=""
-      visible={true}
+      radius="9"
+      color="green"
+      ariaLabel="loading"
+      wrapperStyle
+      wrapperClass
     />
   );
 }
