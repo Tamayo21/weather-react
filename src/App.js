@@ -1,15 +1,20 @@
-import "./App.css";
+import React from "react";
+import Search from "./Search";
 import Weather from "./Weather";
+import Footer from "./Footer";
 
-function App() {
+import "./App.css";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello from React</h1>
-        <Weather city="Tokyo" />
-      </header>
+    <div className="container">
+      <div className="card">
+        <div className="card-body">
+          <Search />
+          <Weather />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
-
-export default App;
