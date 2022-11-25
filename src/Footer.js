@@ -7,14 +7,15 @@ export default function Footer() {
     <div className="footer">
       <p>
         <a
-          href="https://github.com/Tamayo21/weather-app"
+          href="https://github.com/Tamayo21/weather-react"
           target="_blank"
           rel="noreferrer"
         >
-          Open-source code by:&nbsp;
-        </a>
+          Open-source code
+        </a>{" "}
+        by:{" "}
         <a
-          href="https://yingraphics.weebly.com/"
+          href="https://thunderous-mousse-53aede.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
