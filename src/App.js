@@ -7,14 +7,16 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="container">
-      <div className="card">
-        <div className="card-body">
-          <Search />
-          <Weather />
+    <div className="App">
+      <div className="container">
+        <div className="card">
+          <div className="card-body">
+            <Search />
+            <Weather />
+          </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
