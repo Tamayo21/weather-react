@@ -1,15 +1,14 @@
 import React from "react";
-import Temperature from "./Temperature";
-import City from "./City";
-import Humidity from "./Humidity";
+import WeatherSearch from "./WeatherSearch";
+import Days from "./Days";
+
 import "./App.css";
 
 export default function Weather() {
   return (
-    <div className="row">
-      <Temperature />
-      <City />
-      <Humidity />
+    <div className="Weather">
+      <WeatherSearch defaultCity="Yokohama" />
+      <Days />
     </div>
   );
 }
