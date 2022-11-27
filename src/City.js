@@ -5,10 +5,10 @@ import "./App.css";
 export default function Temperature() {
   let cityData = {
     city: "Yokohama",
-    date: "November 13, 2022",
+    date: "November 27, 2022",
     day: "Sunday",
-    time: "19:20",
-    degree: "28",
+    time: "12:20",
+    degree: "18",
   };
 
   return (

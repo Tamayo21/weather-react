@@ -15,14 +15,14 @@ export default function Search() {
             autocomplete="off"
           />
         </div>
-        <div className="col-md-2">
+        <div className="col-md-2 d-grid gap-2">
           <input
             type="submit"
             value="Search"
             className="btn btn-primary search-button"
           />
         </div>
-        <div className="col-md-2">
+        <div className="col-md-2 d-grid gap-2">
           <input
             type="submit"
             value="Current"

@@ -129,6 +129,11 @@ a:hover {
   text-align: left;
 }
 
+.weather-icons {
+  text-align: center;
+  font-size: 60px;
+}
+
 .days {
   display: block;
   margin: 0 auto;
@@ -147,6 +152,7 @@ a:hover {
 
 .temp {
   font-size: 12px;
+  text-align: center;
 }
 
 .next-day-1 {
@@ -188,5 +194,8 @@ a:hover {
   .weatherCondition {
     padding-top: 0px;
     text-align: center;
+  }
+  .next-day-1 {
+    margin-left: 0px;
   }
 }
