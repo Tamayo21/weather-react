@@ -187,6 +187,13 @@ a:hover {
   text-shadow: white;
 }
 
+.footer a {
+  color: #189b92;
+}
+
+.footer a:hover {
+  color: #1ab2a8;
+}
 @media (max-width: 770px) {
   .search-button,
   .current-button {
