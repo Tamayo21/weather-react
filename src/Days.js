@@ -18,7 +18,7 @@ export default function Days() {
                   animate={true}
                 />
               </div>
-              <p className="card-text temp">33°C / 27°C </p>
+              <p className="card-text temp">18°C | 15°C </p>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ export default function Days() {
                   animate={true}
                 />
               </div>
-              <p className="card-text temp">33°C / 27°C </p>
+              <p className="card-text temp">17°C | 14°C </p>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Days() {
                   animate={true}
                 />
               </div>
-              <p className="card-text temp">33°C / 27°C </p>
+              <p className="card-text temp">21°C | 19°C </p>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function Days() {
                   animate={true}
                 />
               </div>
-              <p className="card-text temp">33°C / 27°C </p>
+              <p className="card-text temp">21°C | 15°C </p>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function Days() {
                   animate={true}
                 />
               </div>
-              <p className="card-text temp">33°C / 27°C </p>
+              <p className="card-text temp">13°C | 9°C </p>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function Days() {
                   animate={true}
                 />
               </div>
-              <p className="card-text temp">33°C / 27°C </p>
+              <p className="card-text temp">14°C | 9°C </p>
             </div>
           </div>
         </div>

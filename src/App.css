@@ -133,6 +133,7 @@ a:hover {
 .weather-icons {
   text-align: center;
   font-size: 60px;
+  margin-top: -12px;
 }
 
 .days {
