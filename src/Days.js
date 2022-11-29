@@ -9,7 +9,7 @@ export default function Days() {
         <div className="col-sm-2 next-day-1">
           <div className="card day-card">
             <div className="card-body">
-              <h5 className="card-title">Mon</h5>
+              <h5 className="card-title">Thu</h5>
               <div className="weather-icons">
                 <ReactAnimatedWeather
                   icon="CLEAR_DAY"
@@ -25,7 +25,7 @@ export default function Days() {
         <div className="col-sm-2 next-day-2">
           <div className="card day-card">
             <div className="card-body">
-              <h5 className="card-title">Tue</h5>
+              <h5 className="card-title">Fri</h5>
               <div className="weather-icons">
                 <ReactAnimatedWeather
                   icon="PARTLY_CLOUDY_DAY"
@@ -41,7 +41,7 @@ export default function Days() {
         <div className="col-sm-2 next-day-3">
           <div className="card day-card">
             <div className="card-body">
-              <h5 className="card-title">Wed</h5>
+              <h5 className="card-title">Sat</h5>
               <div className="weather-icons">
                 <ReactAnimatedWeather
                   icon="RAIN"
@@ -57,7 +57,7 @@ export default function Days() {
         <div className="col-sm-2 next-day-4">
           <div className="card day-card">
             <div className="card-body">
-              <h5 className="card-title">Thu</h5>
+              <h5 className="card-title">Sun</h5>
               <div className="weather-icons">
                 <ReactAnimatedWeather
                   icon="RAIN"
@@ -73,7 +73,7 @@ export default function Days() {
         <div className="col-sm-2 next-day-5">
           <div className="card day-card">
             <div className="card-body">
-              <h5 className="card-title">Fri</h5>
+              <h5 className="card-title">Mon</h5>
               <div className="weather-icons">
                 <ReactAnimatedWeather
                   icon="CLOUDY"
@@ -89,7 +89,7 @@ export default function Days() {
         <div className="col-sm-2 next-day-6">
           <div className="card day-card">
             <div className="card-body">
-              <h5 className="card-title">Sat</h5>
+              <h5 className="card-title">Tue</h5>
               <div className="weather-icons">
                 <ReactAnimatedWeather
                   icon="CLEAR_DAY"
