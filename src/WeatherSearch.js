@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import FormattedDate from "./FormattedDate";
+import FormattedDayandTime from "./FormattedDayandTime";
 import axios from "axios";
 
 import "./App.css";
@@ -6,12 +8,11 @@ import "./App.css";
 export default function WeatherSearch(props) {
   let [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
-      date: "Sunday, 23:59",
+      date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
       wind: response.data.wind.speed,
@@ -65,8 +66,12 @@ export default function WeatherSearch(props) {
             <div class="main">
               <h1>{weatherData.city}</h1>
               <ul className="date">
-                <li className="today">November 27, 2022</li>
-                <li className="current-time">{weatherData.date}</li>
+                <li className="today">
+                  <FormattedDate date={weatherData.date} />
+                </li>
+                <li className="current-time">
+                  <FormattedDayandTime date={weatherData.date} />
+                </li>
               </ul>
               <div className="degree">
                 <span className="temperature">
