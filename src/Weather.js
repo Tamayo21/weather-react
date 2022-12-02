@@ -6,7 +6,7 @@ import "./App.css";
 export default function Weather() {
   return (
     <div className="Weather">
-      <WeatherSearch defaultCity="Yokohama" />
+      <WeatherSearch defaultCity="Tokyo" />
     </div>
   );
 }

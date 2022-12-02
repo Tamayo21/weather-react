@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/sky.jpg");
+  background: url("/images/sky.jpg");
   background-size: cover;
 }
 
@@ -44,7 +44,7 @@ a:hover {
 
 .container {
   margin-top: 50px;
-  max-width: 900px;
+  max-width: none;
 }
 
 .card {
