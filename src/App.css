@@ -44,11 +44,11 @@ a:hover {
 
 .container {
   margin-top: 50px;
-  max-width: none;
+  max-width: 720px;
 }
 
 .card {
-  max-width: fit-content;
+  max-width: fit-content(100px);
   display: block;
   margin: 0 auto;
   box-shadow: 5px 5px 5px rgba(46, 46, 46, 0.1);
@@ -138,6 +138,7 @@ a:hover {
 .days {
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .day-card {
@@ -154,28 +155,6 @@ a:hover {
 .temp {
   font-size: 12px;
   text-align: center;
-}
-
-.next-day-1 {
-  margin-left: 25px;
-  margin-right: -10px;
-}
-
-.next-day-2 {
-  margin-right: -10px;
-}
-
-.next-day-3 {
-  margin-left: 0px;
-  margin-right: -10px;
-}
-
-.next-day-4 {
-  margin-right: -10px;
-}
-
-.next-day-5 {
-  margin-right: -10px;
 }
 
 .footer {
@@ -203,7 +182,7 @@ a:hover {
     padding-top: 0px;
     text-align: center;
   }
-  .next-day-1 {
-    margin-left: 0px;
+  .days {
+    margin-top: 50px;
   }
 }

@@ -42,9 +42,9 @@ export default function WeatherSearch(props) {
   if (weatherData.ready) {
     return (
       <div className="WeatherSearch">
-        <form onSubmit={handleSubmit} className="search-form mb-3">
+        <form onSubmit={handleSubmit} className="search-form mb-1">
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-md-9">
               <input
                 type="text"
                 placeholder="Enter a city"
@@ -54,18 +54,11 @@ export default function WeatherSearch(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div className="col-md-2 d-grid gap-2">
+            <div className="col-md-3 d-grid gap-2">
               <input
                 type="submit"
                 value="Search"
                 className="btn btn-primary search-button"
-              />
-            </div>
-            <div className="col-md-2 d-grid gap-2">
-              <input
-                type="submit"
-                value="Current"
-                className="btn btn-primary current-button"
               />
             </div>
           </div>
